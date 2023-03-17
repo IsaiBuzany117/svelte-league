@@ -1,4 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body, html {
-  background-color: #242424;
-  color: whitesmoke;
+  @apply bg-slate-900;
+  @apply text-slate-50
+  /* background-color: #242424;
+  color: whitesmoke; */
+}
+
+.title-font {
+  font-family: "Fredoka One";
+}
+
+.main-font {
+  font-family: "ABeeZee";
 }
